@@ -16,9 +16,10 @@
 	// Number computation:
 	$num3 = $num1 + $num2;
 
-	// Passing variables in single quotes
+	// Passing variables in single quotes:
 	$creedusImperialis = '$string1 $string2'; //Returns [$string1 $string2]
 	
+	// Passing variables in double quotes:
 	$imperialCreed = "$string1 $string2"; // Returns [The Emperor Protects]
 	
 	echo "<br>";
