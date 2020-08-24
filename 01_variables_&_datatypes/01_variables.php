@@ -9,16 +9,6 @@
 		4. Variables are case sensitive.
 	*/
 
-	// PHP Variable Datatypes:
-		$string = "I am a String"; 						// String
-		$num = 42;														// Number
-		$float = 4.5;													// Float
-		$bool = true;													// Boolean
-		$arr = ["A string", 42, 4.5, true];		// Array
-		$obj;																	// Object (to be provided later)
-		$nil = null;													// Null
-																					// Resource
-
 	// Assigning string values to variables:
 	$string1 = "The Emperor";
 	$string2 = "Protects";
