@@ -1,6 +1,6 @@
 <?php
 
-# There are three types of arrays: Indexed, Associative & Multidimensional Arrays:
+# Indexed Arrays:
 
 	// Creating an indexed array (method 1):
 	$arr1 = array("John","Peter","Tim");
