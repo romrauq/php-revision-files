@@ -1,5 +1,5 @@
 <?php
-	#Associaive Arrays
+	# Associaive Arrays
 	
 	// Creating an associative array (method 1):
 	$arr1 = array("name"=>"John Smith", "age"=>30, "married"=>true,);
