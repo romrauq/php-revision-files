@@ -1,15 +1,14 @@
 <?php
-	//Conditionals are used to test values:
-
+	# Conditionals are used to test values.
 	 
-	# <		-	less than.
-	# >		- greater than.
-	# <=	- less than or equal to.
-	# >=	- greater than or equal to.
-	# ==	- "equal to" comparison operator (doesn't check if datatypes are equal)
-	# !=	- "not equal to" comparison operator.
-	# === - strict "equal to " comparison operator (also checks if datatypes of compared values are the same).
-	# !==	- strict "not equal to" comparison operator.
+	// <		-	less than.
+	// >		- greater than.
+	// <=	- less than or equal to.
+	// >=	- greater than or equal to.
+	// ==	- "equal to" comparison operator (doesn't check if datatypes are equal)
+	// !=	- "not equal to" comparison operator.
+	// === - strict "equal to " comparison operator (also checks if datatypes of compared values are the same).
+	// !==	- strict "not equal to" comparison operator.
 
 	$num = 5; // Change the number value of this variable.
 

@@ -1,5 +1,5 @@
 <?php
-		// Switches
+		# SWITCHES
 
 		$weekday = "Wednesday";
 

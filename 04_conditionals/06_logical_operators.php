@@ -11,7 +11,7 @@
 		echo "The variable $num1 fits all the logiacal conditions";
 		echo "<br>";
 	}else{
-		echo "The variable $num1 does not fit all/any of the logiacal conditions";
+		echo "The variable $num1 does not fit all/any of the logical conditions";
 		echo "<br>";
 	}
 
