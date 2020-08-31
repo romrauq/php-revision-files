@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li {
+	padding: 15px 30px;
+}
+
+.header {
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	padding: 20px;
+	background-color: skyblue;
+}
