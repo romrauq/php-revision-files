@@ -16,7 +16,7 @@
 	$arr3[1] = "Dave";
 	$arr3[2] = "Will";
 
-	# Note: count(), print_r() & var_dump():
+	# These are some core functions of PHP: count(), print_r() & var_dump():
 	echo "count() returns: " . count($arr2); // Returns the number of items in the array.
 	echo "<br><br>";
 	print_r($arr2); // Returns the array information of index and items of an array in key-value pairs. 
