@@ -1,9 +1,9 @@
 <?php 
 	# The function filter_var() is used to filter out specific details from the data being sent to a server.
 
-	# filter_var takes two (2) arguments:
+	# filter_var() takes two (2) arguments:
 	// First, the variable containing the data being sent to the server.
-	// The second argument specifies the the type of sanitation to be performed on the data being sent to the server.
+	// Second, the statement to specify the type of sanitation to be performed on the data being sent to the server.
 
 	#	Types/examples of filter_var() sanitization arguments:
 		// FILTER_SANITIZE_EMAIL
@@ -13,10 +13,6 @@
 		// FILTER_SANITIZE_SPECIAL_CHARS
 		// FILTER_SANITIZE_STRING
 		// FILTER_SANITIZE_URL
-
-	# filter_var() takes three (2) arguments: 
-	// 1. The variable which will contain the data to be filtered. 
-	// 2. The statement to specify which type of data it is validating. 
 
 
 	if(filter_has_var(INPUT_POST, 'email')){

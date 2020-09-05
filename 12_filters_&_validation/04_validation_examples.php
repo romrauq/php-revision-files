@@ -1,4 +1,6 @@
-<?php 
+<?php
+	# The function filter_input() is used to validate the data recieved from an input filed to be sent to a server.
+
 	#	Types/examples of filter_input() validation arguments:
 			// FILTER_VALIDATE_BOOLEAN
 			// FILTER_VALIDATE_EMAIL
@@ -17,7 +19,7 @@
 		$regex;
 		$url = "https://www.google.com";
 
-	# Value validate conditions:
+	# Variable value validate conditions:
 	if (filter_var($bool, FILTER_VALIDATE_BOOLEAN)) {
 		echo "Valid boolean value!";
 		echo "<br><br>";
