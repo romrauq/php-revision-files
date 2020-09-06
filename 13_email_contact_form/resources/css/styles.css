@@ -31,9 +31,6 @@
 .header {
 	text-align: center;
 }
-.email-output {
-	height: 25px;
-}
 .input-container {
 	margin-bottom: 10px;
 }
@@ -44,7 +41,7 @@
 input[type="text"] {
 	font-size: 15px;
 	padding: 5px 5px;
-	width: 250px;
+	width: 260px;
 }
 input[type="text"]:focus {
 	outline: none;
@@ -52,7 +49,7 @@ input[type="text"]:focus {
 textarea {
 	font-size: 15px;
 	padding: 5px 5px;
-	width: 250px;
+	width: 260px;
 	height: 120px;
 }
 textarea:focus {
@@ -66,13 +63,27 @@ input[type="submit"] {
 	padding: 10px 50px;
 	margin: 0 auto;
 	background-color: lime;
-	border: 3px solid wheat;
+	/* border: 3px solid wheat; */
 	border-radius: 10px;
 	cursor: pointer;
-	transition: 0.75s;
+	/* transition: 0.75s; */
 }
-input[type="submit"]:hover {
+/* input[type="submit"]:hover {
 	color: lime;
 	background-color: wheat;
 	border: 3px solid lime;
+} */
+.success-class {
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	background-color: lime;
+	border-radius: 5px;
+}
+.warning-class {
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	background-color: red;
+	border-radius: 5px;
 }
