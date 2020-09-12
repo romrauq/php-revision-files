@@ -1,8 +1,8 @@
 <?php
 	// Printing a string to the document window:
-	echo "Hello!";
+	echo "Hello World!";
 	
-	/* Varaible naming rules in PHP:
+	/* Naming rules for variables in PHP:
 		1. Variable names should be prefixed by "$".
 		2. Variable names should only begin with a letter or an underscore.
 		3. Variable names should contain only letters, numbers and underscores.
@@ -30,19 +30,22 @@
 
 
 	// Number computation:
-	$num3 = $num1 + $num2;
+	$num3 = $num1 + $num2; // Addition
+	
 
 	// Passing variables in single quotes:
-	$creedusImperialis = '$string1 $string2'; //Returns [$string1 $string2]
+	$creedoImperialis = '$string1 $string2'; // Echo $creedoImperialis returns [$string1 $string2]
 	
 	// Passing variables in double quotes:
-	$imperialCreed = "$string1 $string2"; // Returns [The Emperor Protects]
+	$imperialCreed = "$string1 $string2"; // Echo $imperialCreed Returns "The Emperor Protects"
 	
 	// Creating a const variable:
-	define("EMPEROR", "God of Mankind"); // Variable name: EMPEROR, Value: "God of Mankind", case sensitive: false (default)
+	define("EMPEROR", "The God of Mankind"); // Variable name: EMPEROR, Value: "God of Mankind", (case insensitive: false default)
 
-	define("Chaos", "Anathema of Humanity", true); //Variable name: Chaos, Value: "Anathema of Humanity", case sensitive: true
+	define("Chaos", "The Anathema of Mankind", true); //Variable name: Chaos, Value: "Anathema of Humanity", case insensitive: true
 
-	echo "<br>";
-	echo chaos;
+	echo "<br>"; // Outputs a line break.
+	echo EMPEROR;
+	echo "<br>"; // Outputs a line break.
+	echo Chaos;
 ?>

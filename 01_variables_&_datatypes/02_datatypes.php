@@ -1,34 +1,49 @@
 <?php
-
-// PHP Variable Datatypes:
+	# PHP variables can contain different types of data.
+	# Datatypes are simply the different types of data a variable can hold.
+	
+	// PHP Variable Datatypes:
 		$string = "I am a String"; 						// String
 		$num = 42;														// Number
 		$float = 4.5;													// Float
 		$bool = true;													// Boolean
 		$arr = ["A string", 42, 4.5, true];		// Array
-		// $obj;															// Object (to be provided later)
+		class Person{
+			private $name;
+			public function __construct($name){
+				$this->name = $name;
+			}
+			public function setname($name){
+				$this->name = $name;
+			}
+			public function getName(){
+				return $this->name;
+			}
+		}
+		$obj =	new Person("John");						// Object
 		$null = null;													// Null
 		$resource = function (){							// Resource
 			return "Hello world";
 		};
 
+		// Outputting 
 		$padding = "<br><br>";
 		var_dump($string);
-		echo "<br>";
+		echo $padding;
 		var_dump($num);
-		echo "<br>";
+		echo $padding;
 		var_dump($float);
-		echo "<br>";
+		echo $padding;
 		var_dump($bool);
-		echo "<br>";
+		echo $padding;
 		var_dump($arr);
-		// echo "<br>";
-		// var_dump($obj);
-		echo "<br>";
+		echo $padding;
+		var_dump($obj);
+		echo $padding;
 		var_dump($null);
-		echo "<br>";
-		var_dump($arr);
-		echo "<br>";
+		echo $padding;
+		var_dump($resource);
+		echo $padding;
 
 
 ?>
