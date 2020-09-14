@@ -10,7 +10,7 @@
 
 		// Variables are then stored in an associative array:
 		$user = ["name" => $name, "email" => $email, "location" => $location];
-		# Cookies take string values not arrays so we will need to preapre the array to be saved as a string.
+		# Cookies store string values, we will need to change the array into a string datatype in order to use it to set a cookie.
 
 		// Using the serialize() function to prepare the array data to be stored as a string for cookie input
 		$user = serialize($user);

@@ -1,13 +1,19 @@
 <?php
-	# 
+	# Serialized cookie arrays need to be unserialized in order to access the data within.
+
+	print_r($_COOKIE['user']); // Serialized cookie.
+	echo "<br><br>";
 
 	if(isset($_COOKIE['user'])){
+		// Unserializing a cookie string back to a readable array and saving the array value into a variable: 
 		$user = unserialize($_COOKIE['user']);
 
-		echo "<b>Name cookie value:</b> " . $user['name'] . "<br>";
-		echo "<b>Email cookie value:</b> " . $user['email'] . "<br>";
-		echo "<b>Location cookie value:</b> " . $user['location'] . "<br>";
+		print_r($user); // $user now contains a readable array.
+		echo "<br><br>";
 
+		echo "<b>Name cookie value:</b> " . $user['name'] . "<br>"; // Accessing name cookie value from $user array.
+		echo "<b>Email cookie value:</b> " . $user['email'] . "<br>"; // Accessing email cookie value from $user array.
+		echo "<b>Location cookie value:</b> " . $user['location'] . "<br>"; // Accessing location cookie value from $user array.
 	}else{
 		echo "User cookies have not been set.<br>";
 	}
