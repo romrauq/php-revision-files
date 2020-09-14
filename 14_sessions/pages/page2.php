@@ -1,5 +1,4 @@
 <?php
-
 	session_start(); // Starts	session for this page.
 
 	$name = $_SESSION['name'];

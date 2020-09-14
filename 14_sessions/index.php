@@ -1,9 +1,9 @@
 <?php
-
-	# SESSIONS: This is a way to carry infomation or data across multiple pages.
-	# It allows for the values received on one page to be available to be used on another page.
+	# SESSIONS: This is one way to carry infomation or data across multiple pages.
+	# It allows for the values received on one page to be available/accessible to be used on another page.
 	# Unlike cookies, session data is not stored on the users computer/device but is stored on the server.
 
+	
 	if (isset($_POST['submit'])) {
 		session_start(); // Starts	session for this page.
 
@@ -11,7 +11,7 @@
 		$_SESSION['name'] = htmlentities($_POST['name']);
 		$_SESSION['email'] = htmlentities($_POST['email']);
 
-		// redirect from php using header() function:
+		// Redirecting to another php page using the header() function:
 		header('location: pages/page2.php');
 
 	}

@@ -1,13 +1,11 @@
 <?php
-
 	session_start();
 
-	$email = $_SESSION['email'];
-
 	unset($_SESSION['name']); // Removes the session data received from the iput with the name = "name". 
-	
 	$name = isset($_SESSION['name']) ? $_SESSION['name'] : 'Guest';
 
+	$email = $_SESSION['email'];
+	
 
 ?>
 

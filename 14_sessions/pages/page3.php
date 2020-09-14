@@ -1,5 +1,4 @@
 <?php
-
 	session_start();
 
 	$_SESSION['name'] = "(Updated Name)"; // Updates session data value for the variable $name. 
