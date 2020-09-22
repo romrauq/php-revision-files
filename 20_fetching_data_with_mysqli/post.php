@@ -23,7 +23,8 @@
 
 ?>
 
-<?php include('inc/header.php') ?>
+<?php require('inc/header.php') ?>
+<?php require('inc/navbar.php') ?>
 
 	<h1 class="heading"><?php echo $post['title']; ?></h1>
 
