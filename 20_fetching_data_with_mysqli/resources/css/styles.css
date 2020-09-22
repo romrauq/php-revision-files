@@ -4,37 +4,18 @@
 	box-sizing: border-box;
 	font-family: tahoma;
 }
-
-.heading {
-	text-align: center;
-	padding: 10px 20px;
-	margin: 10px auto;
-	width: fit-content;
-	background-color: skyblue;
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background: #666;
 }
-
-.blog-container {
-	/* font-size: 18px; */
-	width: 450px;
-	padding: 10px 20px;
-	margin: 20px auto;
-	background-color: pink;
+.logo {
+	color: white;
+	margin: 0 15px;
 }
-
-.blog-title {
-	text-align: center;
-	text-decoration: underline;
-}
-
-.blog-body {
-	margin: 10px 0 5px;
-}
-.blog-info {
-	display: block;
-}
-.blog-link {
-	display: block;
-	color: red;
-}
-.return-link {
+.navbar-links {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
 }
