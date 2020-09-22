@@ -2,6 +2,7 @@
 	require('config/config.php');
 	require('config/db.php');
 
+	// Get ID:
 	$id = mysqli_real_escape_string($connect, $_GET['id']);
 
 	// Assign a query statement to a variable:
@@ -26,12 +27,18 @@
 <?php require('inc/header.php') ?>
 <?php require('inc/navbar.php') ?>
 
-	<h1 class="heading"><?php echo $post['title']; ?></h1>
-
-		<div class="blog-container">
-			<p class="blog-body"><?php echo $post['body']; ?></p>
+		<div class="container w-50 m-auto">
+			
+			<h1 class="heading"><?php echo $post['title']; ?></h1>
+			<p class="m-0"><?php echo $post['body']; ?></p>
 			<small class="blog-info">Created on <?php echo $post['created_at']; ?> by <?php echo $post['author']; ?></small>
-			<a class="return-link" href="<?php echo ROOT_URL ?>">Back</a>
+			<hr class="m-1">
+			<div class="mb-1">
+				<a class="btn btn-primary" href="<?php echo ROOT_URL ?>">Back</a>
+			</div>
+			<div>
+				<a href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post['id']; ?>" class="btn btn-success">Edit Post</a>
+			</div>
 		</div>
 
 

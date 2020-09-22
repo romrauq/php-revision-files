@@ -26,8 +26,8 @@
 <?php require('inc/header.php') ?>
 <?php require('inc/navbar.php') ?>
 
-	<div class="container ">
-		<h1>Add Post</h1>
+	<div class="container w-50 m-auto">
+		<h1 class="text-center">Add a New Post</h1>
 
 		<form method="POST" action="<?php $_SERVER['PHP_SELF'] ?>">
 			<div class="form-group">
